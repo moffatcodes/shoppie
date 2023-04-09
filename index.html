@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>ShopIt</title>
+</head>
+
+<body>
+    <div class="header">
+        <div class="logo-container">
+            <img src="images/logo.png" alt="Logo" id="logo">
+            <div class="Shoppie"><h2>Shoppie</h2></div>
+        </div>
+        <nav class="navbar">
+            <ul class="nav-list">
+                <li class="nav-item"><a href="index.html">Home</a></li>
+                <li class="nav-item"><a href="index.html">About</a></li>
+                <li class="nav-item"><a href="index.html">Gallery</a></li>
+                <li class="nav-item"><a href="index.html">Reviews</a></li>
+                <li class="nav-item"><a href="index.html">Careers</a></li>
+                <li class="nav-item"><a href="index.html">Contact</a></li>
+            </ul>
+        </nav>
+    </div>
+    <header>
+        <h1>Welcome to Shoppie</h1>
+        <p><p>We are a leading online retailer of premium quality watches. Our mission is to provide our customers with
+            the best selection of watches from top brands at competitive prices.</p>
+        <p>With a wide range of styles, materials, and features to choose from, you can find the perfect watch to
+            match your personality and lifestyle.</p></p>
+    </header>
+    <section class="registration">
+    <h2>Registration</h2>
+    <form id="registration-form">
+        <label for="username">Username:</label>
+        <input type="text" id="username" name="username" required>
+        <label for="password">Password:</label>
+        <input type="password" id="password" name="password" required>
+        <button type="submit">Register</button>
+    </form>
+</section>
+
+<section class="search">
+    <h2>Search</h2>
+    <form id="search-form">
+        <label for="search-input">Search for items:</label>
+        <input type="text" id="search-input" name="search-input">
+        <button type="submit">Search</button>
+    </form>
+</section>
+
+    <main>
+        <section class="product-gallery">
+            <h2>Featured Watches</h2>
+            <div class="product-container">
+                <div class="product-item">
+                    <img src="images/image1.png" alt="Watch 1">
+                    <h3>Plastic Watch for kids</h3>
+                    <p>Price: kshs. 2500</p>
+                    <button class="add-to-cart-btn">Add to Cart</button>
+                </div>
+                <div class="product-item">
+                    <img src="images/image2.png" alt="Watch 2">
+                    <h3> Generic Quartz WatcH</h3>
+                    <p>Price: kshs. 102</p>
+                    <button class="add-to-cart-btn">Add to Cart</button>
+                </div>
+                <div class="product-item">
+                    <img src="images/image3.png" alt="Watch 3">
+                    <h3>Bonbond watch</h3>
+                    <p>Price: kshs. 688</p>
+                    <button class="add-to-cart-btn">Add to Cart</button>
+                </div>
+                <div class="product-item">
+                    <img src="images/image4.png" alt="Watch 4">
+                    <h3>Generic smartwatch</h3>
+                    <p>Price: kshs. 2950</p>
+                    <button class="add-to-cart-btn">Add to Cart</button>
+                </div>
+                <div class="product-item">
+                    <img src="images/image5.png" alt="Watch 5">
+                    <h3>Waterproof watch</h3>
+                    <p>Price: kshs. 565</p>
+                    <button class="add-to-cart-btn">Add to Cart</button>
+                </div>
+                <div class="product-item">
+                    <img src="images/image6.png" alt="Watch 6">
+                    <h3>Mechanical watch</h3>
+                    <p>Price: kshs 5677</p>
+                    <button class="add-to-cart-btn">Add to Cart</button>
+                </div>
+            </div>
+        </section>
+        <section class="cart">
+            <h2>Cart</h2>
+            <ul id="cart-items">
+                
+            </ul>
+            <p id="cart-total">Total: $0.00</p>
+            <button id="checkout-btn">Checkout</button>
+        </section>
+    </main>
+    <!-- footer section -->
+    <footer class="footer">
+        <div class="footer-container">
+            <p class="footer-text">© 2023 Shoppie. Created by Moffat Muriithi.</p>
+            <ul class="footer-nav">
+                <li class="footer-nav-item"><a href="#">Privacy Policy</a></li>
+                <li class="footer-nav-item"><a href="#">Terms of Service</a></li>
+                <li class="footer-nav-item"><a href="#">Contact Us</a></li>
+            </ul>
+        </div>
+    </footer>
+    <script src="js/script.js"></script>
+</body>
+
+</html>

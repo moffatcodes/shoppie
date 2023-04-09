@@ -1,0 +1,279 @@
+
+
+
+.header {
+    display: flex;
+    align-items: center;
+    background-color: #f8f8f8; 
+    padding: 10px; 
+}
+
+/* Container for the logo and text */
+.logo-container {
+    padding: 20px; 
+}
+
+/* Style for the logo */
+.logo {
+    width: 150px; 
+    height: auto;
+}
+
+/* Style for the text below the logo */
+.logo-text {
+    margin-top: 10px; 
+    font-size: 18px; 
+    font-weight: bold;
+}
+
+
+.navbar {
+    background-color: #333; 
+    margin-left: 20px; 
+}
+
+/* Style for the navigation list */
+.nav-list {
+    display: flex;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    justify-content: center; /* Center the nav links horizontally */
+}
+
+/* Style for the navigation items */
+.nav-item {
+    margin-right: 10px; 
+}
+
+/* Style for the navigation links */
+.nav-item a {
+    display: block;
+    color: #fff; 
+    text-decoration: none;
+    padding: 15px; 
+}
+
+/* Style for the navigation links on hover */
+.nav-item a:hover {
+    background-color: #555; /* Adjust the background color on hover as needed */
+}
+
+/* Reset some default styles */
+body, figure, h1, h2, h3, p, ul, li {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 1rem;
+}
+
+h1 {
+    font-size: 2rem;
+}
+
+nav ul {
+    list-style-type: none;
+}
+
+nav li {
+    display: inline;
+    margin-right: 1rem;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+}
+
+main {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 2rem;
+}
+
+h2 {
+    margin-bottom: 1rem;
+}
+
+p {
+    margin-bottom: 1rem;
+}
+
+.product-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    max-width: 1200px; 
+    margin: 0 auto; 
+}
+
+.product-item {
+    width: calc(33.33% - 20px); 
+    margin-bottom: 20px; 
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+
+.product-item img {
+    width: 100%;
+    max-height: 200px;
+    object-fit: contain;
+}
+
+.product-item h3 {
+    margin-top: 1rem;
+}
+
+.product-item p {
+    margin-top: 0.5rem;
+    font-weight: bold;
+}
+
+.add-to-cart-btn {
+    margin-top: 0.5rem;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    padding: 0.5rem 1rem;
+    cursor: pointer;
+}
+
+.add-to-cart-btn:hover {
+    background-color: #666;
+}
+
+aside {
+    width: 250px;
+    background-color: #f8f8f8;
+    padding: 1rem;
+    position: fixed;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#cart-items {
+    list-style-type: none;
+    margin-bottom: 1rem;
+}
+
+.cart-item {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 0.5rem;
+}
+
+.cart-item span {
+    flex-grow: 1;
+}
+
+#cart-total {
+    margin-bottom: 1rem;
+    font-weight: bold;
+}
+
+#checkout-btn {
+    background-color: #333;
+    color: #fff;
+    border: none;
+    padding: 0.5rem 1rem;
+    cursor: pointer;
+}
+
+#checkout-btn:hover {
+    background-color: #666;
+}
+
+/* Style for the footer */
+.footer {
+    background-color: #f8f8f8; 
+    padding: 20px;
+}
+
+/* Container for the footer content */
+.footer-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* Style for the footer text */
+.footer-text {
+    margin: 0; /* Remove margin */
+    font-size: 14px; /* Adjust the font size as needed */
+}
+
+
+.footer-nav {
+    list-style-type: none;
+    margin: 0; 
+    padding: 0; 
+}
+
+
+.footer-nav-item {
+    display: inline-block;
+    margin-right: 10px; 
+}
+
+
+.footer-nav-item a {
+    text-decoration: none;
+    color: #333; 
+}
+.registration {
+    margin-bottom: 20px;
+}
+
+.registration h2,
+.search h2 {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+#registration-form,
+#search-form {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+label {
+    margin-bottom: 5px;
+}
+
+input[type="text"],
+input[type="password"] {
+    margin-bottom: 10px;
+    padding: 5px;
+    width: 200px;
+}
+
+button[type="submit"] {
+    padding: 10px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    width: 100px;
+}
+
+button[type="submit"]:hover {
+    background-color: #0056b3;
+}
+
+
+
